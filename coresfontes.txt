@@ -1,0 +1,18 @@
+Famílias de Fontes --> Poppins
+
+font-Principal --> tamanho 20, bold 
+font-Segundária --> tamanho 20, regular
+font-LabelLogin --> tamanho 18, regular, 5% de espaçamento
+font-FormTitulo --> tamanho 30, semibold, 11% de espaçamento
+
+Cores
+ 
+color-Primaria --> #295A80, 100%
+color-Segundária --> #7BAED2, 100%
+color-Terciária --> #D9D9D9, 100%
+color-Quarternária --> #0F6F8F, 100%
+color-LabelLogin --> #000, 100%
+color-FundoLoginCadastro --> #E9E9E9, 100%
+color-FonteLinks --> #414141, 100%
+color-IconesHome --> #ECECEC, 100#
+
