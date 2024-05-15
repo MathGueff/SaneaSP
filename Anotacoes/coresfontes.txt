@@ -14,5 +14,5 @@ color-Quarternária --> #0F6F8F, 100%
 color-LabelLogin --> #000, 100%
 color-FundoLoginCadastro --> #E9E9E9, 100%
 color-FonteLinks --> #414141, 100%
-color-IconesHome --> #ECECEC, 100#
+color-IconesHome --> #ECECEC, 100%
 
