@@ -1,0 +1,16 @@
+Fontes retiradas do Iconify: (tamanho 32)
+
+Menu:
+Reclamação - mdi:chat-add-outline
+Headset - basil:headset-outline
+Doencas - mdi:bacteria-outline
+Noticias - fluent:news-24-regular
+
+Header:
+Usuario_login - mingcute:user-4-line
+
+Informações:
+Responsáveis - mdi:user-tie
+
+Doenças e Notícias:
+Procurar - gala:search
