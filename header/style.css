@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --cor-primaria: #295A80;
+    --cor-secundaria: #7BAED2;
+    --cor-terciaria: #D9D9D9;
+    --cor-quaternaria: #006992;
+    --cor-fundo: white;
+    --fonte-primaria: Poppins, sans-serif;
+    --fonte-secundaria: georgia, sans-serif;
+    --tamanhofonte-primaria: "20px";
+    --tamanhofonte-secundaria: "18px";
+    --tamanhofonte-terciaria: "30px";
+    --espaco-letras: "1.5px";
+}
+*{
+    font-family: var(--fonte-primaria);
+    font-size: var(--tamanhofonte-primaria);
+    background-color: var(--cor-fundo);
+}
+
+body{
+    font-family: var(--fonte-primaria);
+}
+
+
+.header{
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 170px;
+    padding: 0px 35px 26px 35px;
+}
+
+.header *{
+    background-color: var(--cor-primaria);
+}
+
+.logo{
+    height: 170px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 735px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 4px solid white;
+    font-weight: 600;
+    letter-spacing: var(--espaco-letras);
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login button{
+    background-color: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+#logo_header{
+    width: 370px;
+    height: 170px;
+}
+
+#icon_login{
+    width: 113px;
+    height: 113px;
+}
