@@ -1,6 +1,0 @@
-[submodule "FrontEnd-SaneaSP"]
-	path = FrontEnd-SaneaSP
-	url = https://github.com/MathGueff/FrontEnd-SaneaSP.git
-[submodule "Backend-SaneaSP"]
-	path = Backend-SaneaSP
-	url = https://github.com/RyanCNP/Backend-SaneaSP.git

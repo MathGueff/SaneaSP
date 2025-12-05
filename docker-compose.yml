@@ -1,0 +1,26 @@
+services:
+  banco:
+    container_name: postgres
+    image: postgres:latest
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_PASSWORD: "1234"
+      POSTGRES_USER: postgres
+      POSTGRES_DB: sanea
+  back:
+    image: saneasp/back-sanea-prod:latest
+    ports:
+      - '3000:3000'
+    env_file:
+      - ./.env
+    environment:
+      - NODE_ENV=development
+      - DEV_DATABASE_URL=postgresql://postgres:1234@banco:5432/postgres
+    depends_on:
+      - banco
+
+  front:
+    image: saneasp/front-sanea-prod:latest
+    ports:
+      - '4200:80'
