@@ -21,7 +21,7 @@ O **SaneaSP** é uma plataforma web desenvolvida para facilitar a comunicação 
 
 ---
 
-## 🚀 Funcionalidades Principalmente
+## 🚀 Principais funcionalidades
 ### 👤 Para Cidadãos
 - Cadastro e login (incluindo redes sociais)
 - Registro de reclamações com imagens
@@ -111,6 +111,3 @@ O **SaneaSP** é uma plataforma web desenvolvida para facilitar a comunicação 
 - Ryan Carlo Negretti Pereira
 
 ---
-
-Se desejar, posso criar também uma **versão ultra resumida**, uma versão **institucional**, ou um **README de apresentação para GitHub**. Basta pedir!
-
